@@ -1,0 +1,13 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "Cantarus Suggestions Extension",
+  "version": "0.1.0",
+  "extensions": [
+    {
+      "name": "Cantarus.Suggestions.EntryPoint",
+      "alias": "Cantarus.Suggestions.EntryPoint",
+      "type": "entryPoint",
+      "js": "/App_Plugins/cantarus-suggestions/dist/cantarus-suggestions.js"
+    }
+  ]
+}
