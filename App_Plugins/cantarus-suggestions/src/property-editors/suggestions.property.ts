@@ -12,10 +12,10 @@ export class CantarusPropertySuggestions
 
   constructor() {
     super();
-    
+
     this.consumeContext(UMB_DOCUMENT_WORKSPACE_CONTEXT, (instance) => {
-			this.#workspaceContext = instance;
-		});
+      this.#workspaceContext = instance;
+    });
   }
 
   #click() {
